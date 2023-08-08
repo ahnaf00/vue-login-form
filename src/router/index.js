@@ -5,8 +5,8 @@ import About    from "../views/About.vue"
 import Contact  from "../views/Contact.vue"
 import Service  from "../views/Service.vue"
 import Login  from "../views/Login.vue"
-import Register  from "../views/Register.vue"
-// import  App  from '../App.vue';
+// import Register  from "../views/Register.vue"
+import  App  from '../App.vue';
 
 
 
@@ -16,7 +16,8 @@ const routes = [
     { path: '/contact',     name: 'contact',    component: Contact },
     { path: '/service',     name: 'service',    component: Service },
     { path: '/login',       name: 'login',      component: Login },
-    { path: '/register',    name: 'register',   component: Register },
+    // { path: '/register',    name: 'register',   component: Register },
+    { path: '/',    name: 'register',   component: App },
 
 
 ];
